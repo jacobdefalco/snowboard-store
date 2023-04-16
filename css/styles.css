@@ -50,3 +50,54 @@
     margin-left: -.4em;
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    display: block;
+    justify-content: space-between;
+    margin-top: 30em;
+    background-color: cyan;
+    margin-left: 1em;
+}
+
+.follow-us {
+    text-align: center;
+}
+
+ul.link-list li {
+    display: inline;
+}
+
+.link-list {
+    text-align: center;
+}
+
+.fb-icon, .insta-icon, .twit-icon, .youtube-icon, .reddit-icon {
+    height: 2em;
+}
+
+.footer-copyright {
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
