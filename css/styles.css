@@ -2,15 +2,51 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 3em;
-    border: 3px solid black;
+    height: 8em;
+    border: 3px dashed black;
     align-items: center;
 }
 
-.midle-section {
+.left-section, .middle-section, .right-section {
+    margin: .5em .5em .5em .5em;
+}
+
+.left-section {
+    background-color: orange;
+}
+
+.middle-section {
     border: 1px solid black;
+    align-items: center;
+    justify-content: space-between;
+    background-color: pink;
 }
 
 .right-section {
     border-left: 1px solid black;
+    background-color: lightseagreen;
+}
+
+.hamburger-icon {
+    height: 2em;
+}
+
+.store-logo {
+    height: 6em;
+}
+
+.search-bar {
+    height: 2em;
+    width: 300px;
+    flex: 1;
+}
+
+.search-icon {
+    height: 1.8em;
+}
+
+.search-button {
+    height: 2.1em;
+    margin-left: -.4em;
+    
 }
