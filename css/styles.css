@@ -20,6 +20,8 @@
     align-items: center;
     justify-content: space-between;
     background-color: pink;
+    flex: 1;
+    min-width: 22em;
 }
 
 .right-section {
@@ -94,6 +96,7 @@ ul.link-list li {
 
 .fb-icon, .insta-icon, .twit-icon, .youtube-icon, .reddit-icon {
     height: 2em;
+    cursor: pointer;
 }
 
 .footer-copyright {
