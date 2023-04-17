@@ -1,5 +1,5 @@
 html, body{
-    background-color: violet;
+
 }
 
 
@@ -21,6 +21,10 @@ html, body{
     margin: .5em .5em .5em .5em;
 }
 
+.left-section {
+    background-color: red;
+}
+
 
 .hamburger-icon {
     height: 2em;
@@ -39,9 +43,10 @@ html, body{
 
 .search-bar {
     height: 2em;
-    width: 500px;
     flex: 1;
     padding-bottom: 2px;
+    text-align: center;
+    width: 85%;
 }
 
 .search-icon {
@@ -73,10 +78,10 @@ main {
 
 #shopnow{
     position: relative;
-    top: 5em;
-    left: 40em;
-
+    top: 12em;
+    left: 48em;
 }
+
 .home-page-pic{
     width: 100%;
 }
