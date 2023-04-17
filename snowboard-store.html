@@ -23,35 +23,39 @@
       crossorigin="anonymous"
     ></script>
     <header>
-      <nav class="navbar bg-body-tertiary">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand">Snow 'n Stuff</a>
-          <a class="navbar-brand">Login</a>
-          <a class="navbar-brand">Sign Up</a>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
         </div>
       </nav>
-      <!-- <div class="header">
-        <div class="left-section">
-          <img class="hamburger-icon" src="icons\hamburger-menu-icon.png" alt="hamburger-icon" />
-          <img class="store-logo" src="icons\logo.png" alt="logo-pic" />
-        </div>
-        <div class="middle-section">
-          <input class="search-bar" type="text" placeholder="Search" />
-          <button class="search-button">
-            <img class="search-icon" src="icons/search-icon.png" alt="search-icon" />
-          </button>
-        </div>
-        <div class="right-section">
-          <nav class="header-nav">
-            <a href="">Contact Us</a> | <a href="login.html" title="Log In">Log In</a> |
-            <a href="signup.html" title="Sign Up">Sign Up</a>
-          </nav>
-        </div>
-      </div> -->
     </header>
 
     <hr>
@@ -69,8 +73,8 @@
             today and ride the powder in style and comfort!
           </p>
           <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-            <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Town History</button>
-            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Founder History</button>
+            <button type="button" class="btn btn-primary btn-lg px-4 gap-3">About Us</button>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Shop Now</button>
           </div>
         </div>
       </div>
