@@ -1,96 +1,99 @@
-html, body{
-
+html,
+body {
 }
-
 
 .header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 8em;
-    align-items: center;
-    /* this is aqua bc its overriding the pink */
-    background-color: aquamarine;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 8em;
+  align-items: center;
+  /* this is aqua bc its overriding the pink */
+  background-color: aquamarine;
 }
 
-.left-section, .middle-section, .right-section {
-    margin: .5em .5em .5em .5em;
+.left-section,
+.middle-section,
+.right-section {
+  margin: 0.5em 0.5em 0.5em 0.5em;
 }
 
 .left-section {
-    background-color: red;
+  background-color: red;
 }
 
-
 .hamburger-icon {
-    height: 2em;
+  height: 2em;
 }
 
 .store-logo {
-    height: 6em;
+  height: 6em;
 }
 
 .middle-section {
-    align-items: center;
-    justify-content: space-between;
-    flex: 1;
-    min-width: 22em;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  min-width: 22em;
 }
 
 .search-bar {
-    height: 2em;
-    flex: 1;
-    padding-bottom: 2px;
-    text-align: center;
-    width: 85%;
+  height: 2em;
+  flex: 1;
+  padding-bottom: 2px;
+  text-align: center;
+  width: 85%;
 }
 
 .search-icon {
-    height: 1.8em;
+  height: 1.8em;
 }
 
 .search-button {
-    height: 2em;
-    margin-left: -.4em;
-    border-radius: 4px;
+  height: 2em;
+  margin-left: -0.4em;
+  border-radius: 4px;
 }
-
-
-
 
 main {
-    
+  background: url(/images/mountains.jpeg) no-repeat center / cover fixed;
 }
 
-
+.text-background-grey {
+    background-color: rgba(35, 36, 86, 0.213);
+}
 
 .footer {
-    display: block;
-    justify-content: space-between;
-    margin-bottom: 0%;
+  display: block;
+  justify-content: space-between;
+  margin-bottom: 0%;
 }
 
 .follow-us {
-    text-align: center;
-    margin-left: 1em;
+  text-align: center;
+  margin-left: 1em;
 }
 
 ul.link-list li {
-    display: inline;
-    margin: .25em;
+  display: inline;
+  margin: 0.25em;
 }
 
 .link-list {
-    text-align: center;
+  text-align: center;
 }
 
-.fb-icon, .insta-icon, .twit-icon, .youtube-icon, .reddit-icon {
-    height: 2em;
-    cursor: pointer;
+.fb-icon,
+.insta-icon,
+.twit-icon,
+.youtube-icon,
+.reddit-icon {
+  height: 2em;
+  cursor: pointer;
 }
 
 .footer-copyright {
-    text-align: center;
-    font-weight: bold;
-    cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
 }
