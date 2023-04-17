@@ -1,18 +1,26 @@
+html {
+}
+
+
+body {
+    background-color: violet;
+}
+
+
+
 .header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     height: 8em;
-    border: 3px dashed black;
     align-items: center;
+    background-color: aquamarine;
 }
 
 .left-section, .middle-section, .right-section {
     margin: .5em .5em .5em .5em;
 }
 
-.left-section {
-}
 
 .hamburger-icon {
     height: 2em;
@@ -25,15 +33,15 @@
 .middle-section {
     align-items: center;
     justify-content: space-between;
-    background-color: pink;
     flex: 1;
     min-width: 22em;
 }
 
 .search-bar {
     height: 2em;
-    width: 300px;
+    width: 500px;
     flex: 1;
+    padding-bottom: 2px;
 }
 
 .search-icon {
@@ -41,9 +49,9 @@
 }
 
 .search-button {
-    height: 2.1em;
+    height: 2em;
     margin-left: -.4em;
-    
+    border-radius: 4px;
 }
 
 
@@ -55,14 +63,17 @@
 
 
 main {
-    background-color: violet;
+    
 }
 
 .main-body-heading {
     text-align: center;
 }
 
-
+.home-page-pic {
+    height: 20em;
+    margin-left: 2em;
+}
 
 
 
@@ -75,17 +86,17 @@ main {
 .footer {
     display: block;
     justify-content: space-between;
-    background-color: cyan;
-    margin-left: 1em;
-    margin-right: 1em;
+    margin-bottom: 0%;
 }
 
 .follow-us {
     text-align: center;
+    margin-left: 1em;
 }
 
 ul.link-list li {
     display: inline;
+    margin: .25em;
 }
 
 .link-list {
