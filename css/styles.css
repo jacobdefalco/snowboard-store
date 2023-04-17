@@ -8,8 +8,6 @@ body {
   justify-content: space-between;
   height: 8em;
   align-items: center;
-  /* this is aqua bc its overriding the pink */
-  background-color: aquamarine;
 }
 
 .left-section,
@@ -26,8 +24,8 @@ body {
   height: 2em;
 }
 
-.store-logo {
-  height: 6em;
+.logo {
+  height: 4em;
 }
 
 .middle-section {
@@ -56,17 +54,18 @@ body {
 }
 
 main {
-  background: url(/images/mountains.jpeg) no-repeat center / cover fixed;
+  background: url(/images/mountains2.jpeg) no-repeat center / cover fixed;
 }
 
 .text-background-grey {
-    background-color: rgba(35, 36, 86, 0.213);
+    background-color: rgba(10, 11, 63, 0.563);
+    border-radius: 10px;
+    color: white;
 }
 
 .footer {
   display: block;
   justify-content: space-between;
-  margin-bottom: 0%;
 }
 
 .follow-us {
