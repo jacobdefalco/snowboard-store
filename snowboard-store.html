@@ -13,7 +13,7 @@
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     />
-    <!-- THE FUCKIN CSS STYLE SHEET WAS ABOVE THE FUCKIN TITLE HEADASS -->
+    <!-- THE CSS STYLE SHEET WAS ABOVE THE TITLE -->
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
@@ -23,7 +23,18 @@
       crossorigin="anonymous"
     ></script>
     <header>
-      <div class="header">
+      <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand">Snow 'n Stuff</a>
+          <a class="navbar-brand">Login</a>
+          <a class="navbar-brand">Sign Up</a>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+      <!-- <div class="header">
         <div class="left-section">
           <img class="hamburger-icon" src="icons\hamburger-menu-icon.png" alt="hamburger-icon" />
           <img class="store-logo" src="icons\logo.png" alt="logo-pic" />
@@ -40,11 +51,31 @@
             <a href="signup.html" title="Sign Up">Sign Up</a>
           </nav>
         </div>
-      </div>
+      </div> -->
     </header>
 
+    <hr>
+
     <main>
-      <div class="main-body-heading">
+      <div class="px-4 py-5 my-5 text-center">
+        <img class="d-block mx-auto mb-4" src="images\snowboard.jpeg" alt="" width="72" height="57" />
+        <h1 class="display-5 fw-bold">Welcome to Snow 'n Stuff!</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">
+            Welcome to our one-stop-shop for all your snowboarding needs! We offer a wide selection of high-quality snowboards, boots,
+            bindings, outerwear, and accessories from the top brands in the industry. Whether you're a seasoned pro or a beginner hitting
+            the slopes for the first time, we've got everything you need to make the most out of your snowboarding experience. Our
+            knowledgeable staff is dedicated to helping you find the perfect gear to match your style, skill level, and budget. Shop with us
+            today and ride the powder in style and comfort!
+          </p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Town History</button>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Founder History</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="main-body-heading">
         <h1>Welcome to Snow 'n Stuff!</h1>
         <nav>
           <a href="town-history.html" title="Town History">TOWN HISTORY!</a> |
@@ -55,8 +86,7 @@
       <div class="text-overlay">
         <button id="shopnow">SHOP NOW</button>
         <img class="home-page-pic" src="images/snowboard1.jpg" alt="Snowboard Background" />
-      </div>
-      
+      </div> -->
     </main>
     <hr />
 
