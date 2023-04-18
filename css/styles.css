@@ -32,7 +32,7 @@ body {
 
 .logo-bigger {
     height: 8em;
-    margin-top: 1em;
+    margin: 2em 0 0 5em
   }
 
 .middle-section {
@@ -64,7 +64,6 @@ body {
   background: url(/images/mountains2.jpeg) no-repeat center / cover fixed;
   margin-bottom: 1em;
   height: 100%;
-
 }
 
 
