@@ -63,6 +63,8 @@ body {
 .mountain-bg {
   background: url(/images/mountains2.jpeg) no-repeat center / cover fixed;
   margin-bottom: 5em;
+  height: 100%;
+
 }
 
 
@@ -75,6 +77,7 @@ body {
 .footer {
   display: block;
   justify-content: space-between;
+
 }
 
 .follow-us {
