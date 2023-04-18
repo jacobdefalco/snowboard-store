@@ -112,3 +112,8 @@ ul.link-list li {
     text-align: center;
     margin-top: -2.5em;
 }
+
+.prod-list {
+  color: white;
+  font-size: larger;
+}
