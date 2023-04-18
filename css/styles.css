@@ -62,6 +62,7 @@ body {
 
 .mountain-bg {
   background: url(/images/mountains2.jpeg) no-repeat center / cover fixed;
+  margin-bottom: 5em;
 }
 
 .text-background-grey {
@@ -102,5 +103,10 @@ ul.link-list li {
   text-align: center;
   font-weight: bold;
   cursor: pointer;
+}
+
+.tos-pp {
+    text-align: center;
+    margin-top: -2.5em;
 }
 
