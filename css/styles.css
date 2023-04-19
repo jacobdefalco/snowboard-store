@@ -123,3 +123,9 @@ ul.link-list li {
   margin-top: 2em;
 }
 
+.htph {
+  height: 2em;
+  border-radius: 1em;
+  margin-left: .25em;
+}
+
